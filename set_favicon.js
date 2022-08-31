@@ -15,7 +15,7 @@
   let lastTitle;
   function titleUpdated() {
     if (document.title != lastTitle) {
-      let emojiRE = /(\p{Emoji}+)/u;
+      let emojiRE = /(\p{Extended_Pictographic}+)/u;
       let match = document.title.match(emojiRE); // true
       if (match) {
         lastTitle = document.title;

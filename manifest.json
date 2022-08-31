@@ -2,7 +2,7 @@
   "name": "Emoji Title to Favicon",
   "short_name": "Emoji Title → Favicon",
   "description": "Finds emoji in the document title and sets them as the favicon",
-  "version": "1.0",
+  "version": "1.0.1",
   "icons": { 
     "128": "emoji-favicon.png",
     "32": "emoji-favicon.png"
